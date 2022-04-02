@@ -151,5 +151,36 @@ function buildCharts(sample) {
     var wFreqFloat = parseFloat(wFreq).toFixed(2)
     console.log(wFreqFloat)
 
+    // 4. Create the trace for the gauge chart.
+    var gaugeData = [{
+      title: {text: "Scrubs per Week", font: {size: 18}},
+      type: "indicator",
+      mode: "gauge+number",
+      value: wFreq,
+      tickmode: 'linear',
+      gauge: {
+        axis: { range: [null, 10], dtick: 2, tick0: 0 },
+        bar: { color: "firebrick" },
+        bgcolor: "white",
+        borderwidth: 2,
+        bordercolor: "gray",
+        steps: [
+          { range: [0, 2], color: "floralwhite"},
+          { range: [2, 4], color: "lavender"},
+          { range: [4, 6], color: "thistle"},
+          { range: [6, 8], color: "mediumslateblue" },
+          { range: [8, 10], color: "royalblue" },
+        ]},
+        
+    }];
+    // 5. Create the layout for the gauge chart.
+    var gaugeLayout = { 
+      title: "Belly Button Washing Frequency",
+      titlefont: {"size": 25}
+    };
+
+    // 6. Use Plotly to plot the gauge data and layout.
+    Plotly.newPlot("gauge", gaugeData, gaugeLayout)
+
   });
 }
