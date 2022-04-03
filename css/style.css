@@ -1,53 +1,23 @@
+.jumbotron h1 {
+  color:aliceblue
+}
+
+.jumbotron p {
+  color:aliceblue
+}
+
+.white-text h2 {
+  color: aliceblue;
+}
+
+.aliceblue-text p {
+  color: aliceblue;
+}
+
+.col-md-12 p {
+  color: aliceblue;
+}
+
 body {
-
-    color: black;
-    font-family: Verdana;
-  }
-
-  .jumbotron {
-    background-image: url('../images/lab2.jpg');
-    background-size: 100% 100%;
-    opacity: 0.7;
-    text-align: center;
-    color: aliceblue;
-    /* text-shadow: 3px 3px 8px whitesmoke; */
-    
-  } 
-
-  .well {
-background-color: aliceblue;
-font-family: Verdana;
-font-weight: 90;
-font-size: smaller;
-
-
-  }
-
-  .panel {
-    background-color: aliceblue;
-    font-family: Verdana;
-    font-weight: 90;
-    
-      }
-
-
-#know {
-  font-family: Verdana;
-  font-weight: 90;
-  font-size: medium;
-  background-color: whitesmoke;
-}
-
-#otu {
-  font-family: Verdana;
-  font-weight: 90;
-  font-size: medium;
-  background-color: whitesmoke;
-}
-
-#scrub{
-  font-family: Verdana;
-  font-weight: 90;
-  font-size: medium;
-  background-color: whitesmoke;
+  background-color: rgb(61, 59, 66);
 }
