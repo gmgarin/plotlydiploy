@@ -1,23 +1,53 @@
-.jumbotron h1 {
-  color:rgb(127, 188, 241)
-}
-
-.jumbotron p {
-  color:rgb(181, 92, 223)
-}
-
-.white-text h2 {
-  color: rgb(27, 95, 155);
-}
-
-.aliceblue-text p {
-  color: rgb(58, 110, 155);
-}
-
-.col-md-12 p {
-  color: rgb(65, 77, 87);
-}
-
 body {
-  background-color: rgb(5, 1, 17);
+
+  color: rgb(17, 3, 39);
+  font-family: Verdana;
+}
+
+.jumbotron {
+  background-image: url('../images/lab2.jpg');
+  background-size: 100% 100%;
+  opacity: 0.7;
+  text-align: center;
+  color: rgb(21, 131, 226);
+  /* text-shadow: 3px 3px 8px whitesmoke; */
+  
+} 
+
+.well {
+background-color: rgb(18, 93, 158);
+font-family: Verdana;
+font-weight: 90;
+font-size: smaller;
+
+
+}
+
+.panel {
+  background-color: rgb(35, 135, 223);
+  font-family: Verdana;
+  font-weight: 90;
+  
+    }
+
+
+#know {
+font-family: Verdana;
+font-weight: 90;
+font-size: medium;
+background-color: rgb(74, 18, 163);
+}
+
+#otu {
+font-family: Verdana;
+font-weight: 90;
+font-size: medium;
+background-color: rgb(8, 45, 94);
+}
+
+#scrub{
+font-family: Verdana;
+font-weight: 90;
+font-size: medium;
+background-color: rgb(245, 245, 245);
 }
