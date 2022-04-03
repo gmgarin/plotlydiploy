@@ -1,13 +1,13 @@
 body {
 
-  color: rgb(229, 226, 235);
+  color: rgb(14, 90, 27);
   font-family: Verdana;
 }
 
 .jumbotron {
   background-image: url('../resources/bacteria.jpeg');
   background-size: 100% 100%;
-  opacity: 0.7;
+  opacity: 0.5;
   text-align: center;
   color: rgb(226, 232, 238);
   /* text-shadow: 3px 3px 8px whitesmoke; */
