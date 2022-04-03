@@ -1,21 +1,21 @@
 body {
 
-  color: rgb(17, 3, 39);
+  color: rgb(229, 226, 235);
   font-family: Verdana;
 }
 
 .jumbotron {
-  background-image: url('../resources/bacteria.png');
+  background-image: url('../resources/bacteria.jpeg');
   background-size: 100% 100%;
   opacity: 0.7;
   text-align: center;
-  color: rgb(21, 131, 226);
+  color: rgb(226, 232, 238);
   /* text-shadow: 3px 3px 8px whitesmoke; */
   
 } 
 
 .well {
-background-color: rgb(18, 93, 158);
+background-color: rgb(235, 244, 252);
 font-family: Verdana;
 font-weight: 90;
 font-size: smaller;
@@ -24,7 +24,7 @@ font-size: smaller;
 }
 
 .panel {
-  background-color: rgb(35, 135, 223);
+  background-color: rgb(234, 238, 241);
   font-family: Verdana;
   font-weight: 90;
   
@@ -35,14 +35,14 @@ font-size: smaller;
 font-family: Verdana;
 font-weight: 90;
 font-size: medium;
-background-color: rgb(74, 18, 163);
+background-color: rgb(229, 225, 235);
 }
 
 #otu {
 font-family: Verdana;
 font-weight: 90;
 font-size: medium;
-background-color: rgb(8, 45, 94);
+background-color: rgb(227, 234, 243);
 }
 
 #scrub{
