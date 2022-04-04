@@ -1,5 +1,7 @@
 # Plotly_Deploy_Challenge
 
+#### Project Output [Click Here](https://gmgarin.github.io/plotlydiploy/)
+
 ## Overview of the Project
 ### The end goal of this project is to create an interactive webpage where users can interact with the data. The the data set included in this project were navel bacterial samples collected from over 100 individuals. Various chart types were created to visualize data that were collected.
 
