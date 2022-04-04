@@ -160,7 +160,7 @@ d3.json("samples.json").then((data) => {
     tickmode: 'linear',
     gauge: {
       axis: { range: [null, 10], dtick: 2, tick0: 0 },
-      bar: { color: "firebrick" },
+      bar: { color: "DeepSkyBlue" },
       bgcolor: "white",
       borderwidth: 2,
       bordercolor: "gray",
