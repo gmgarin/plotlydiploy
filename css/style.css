@@ -1,7 +1,7 @@
 body {
 
   color: rgb(17, 2, 24);
-  font-family: Verdana;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .jumbotron {
@@ -16,7 +16,7 @@ body {
 
 .well {
 background-color: rgb(238, 242, 245);
-font-family: Verdana;
+font-family: 'Times New Roman', Times, serif;
 font-weight: 90;
 font-size: smaller;
 
@@ -25,28 +25,28 @@ font-size: smaller;
 
 .panel {
   background-color: aliceblue;
-  font-family: Verdana;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 90;
   
     }
 
 
 #know {
-font-family: Verdana;
+font-family: 'Times New Roman', Times, serif;
 font-weight: 90;
 font-size: medium;
 background-color: whitesmoke;
 }
 
 #otu {
-font-family: Verdana;
+font-family: 'Times New Roman', Times, serif;
 font-weight: 90;
 font-size: medium;
 background-color: whitesmoke;
 }
 
 #scrub{
-font-family: Verdana;
+font-family: 'Times New Roman', Times, serif;
 font-weight: 90;
 font-size: medium;
 background-color: whitesmoke;
