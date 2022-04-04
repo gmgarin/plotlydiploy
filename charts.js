@@ -165,11 +165,11 @@ d3.json("samples.json").then((data) => {
       borderwidth: 2,
       bordercolor: "gray",
       steps: [
-        { range: [0, 2], color: "floralwhite"},
-        { range: [2, 4], color: "lavender"},
-        { range: [4, 6], color: "thistle"},
-        { range: [6, 8], color: "mediumslateblue" },
-        { range: [8, 10], color: "royalblue" },
+        { range: [0, 2], color: "MediumSlateBlue"},
+        { range: [2, 4], color: "RoyalBlue"},
+        { range: [4, 6], color: "Blue"},
+        { range: [6, 8], color: "MediumBlue" },
+        { range: [8, 10], color: "DarkBlue" },
       ]},
       
   }];
